@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>© {currentYear} YourLogo. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Made with ❤️ by Your Team</p>
+          <p className="mt-2 md:mt-0">Made with  by Your Team</p>
         </div>
       </div>
     </footer>
