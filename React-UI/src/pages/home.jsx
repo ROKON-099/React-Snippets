@@ -1,4 +1,5 @@
 
+import Banner from "../components/ui/banner"
 import Practice from "../components/ui/practice"
 import Section from "../components/ui/section"
 
@@ -10,6 +11,7 @@ function Home() {
       
       <Section/>
      <Practice/>
+     <Banner/>
 
     </div>
   )

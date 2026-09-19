@@ -1,43 +1,59 @@
-import { useState } from "react";
 
 function Banner() {
-  const [product] = useState({
-    name: "Wireless Headphone",
-    price: 2500,
-    category: "Electronics",
-    id: 101
-  });
-
-  // Template literals
-  const productUrl = `/products/${product.id}`;
-
-  const message = `You selected ${product.name} for ৳${product.price}`;
+  const users = [
+    {
+      id: 1,
+      name: "Rahim",
+      age: 22,
+      city: "Dhaka"
+    },
+    {
+      id: 2,
+      name: "Karim",
+      age: 24,
+      city: "Rajshahi"
+    },
+    {
+      id: 3,
+      name: "Hasan",
+      age: 21,
+      city: "Chittagong"
+    }
+  ];
 
   return (
-    <div className="border p-5 rounded-lg w-80">
-      <h2 className="text-xl font-bold">
-        {product.name}
-      </h2>
+    <div className="p-10">
 
-      <p>Category: {product.category}</p>
+      <h1 className="text-3xl font-bold mb-6">
+        User Profiles
+      </h1>
 
-      <p className="text-lg">
-        Price: ৳{product.price}
-      </p>
+      <div className="grid grid-cols-3 gap-5">
 
-      {/* Dynamic URL */}
-      <a href={productUrl} className="text-blue-500">
-        View Product
-      </a>
+        {users.map(({ id, name, age, city }) => (
 
-      <button
-        onClick={() => alert(message)}
-        className="bg-black text-white px-4 py-2 mt-4"
-      >
-        Buy Now
-      </button>
+          <div
+            key={id}
+            className="border rounded-lg p-5 shadow"
+          >
+
+            <h2 className="text-xl font-bold">
+              {name}
+            </h2>
+
+            <p>Age: {age}</p>
+
+            <p>City: {city}</p>
+
+          </div>
+
+        ))}
+
+      </div>
+
     </div>
   );
 }
 
 export default Banner;
+
