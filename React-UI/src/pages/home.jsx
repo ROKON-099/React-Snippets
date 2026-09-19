@@ -1,3 +1,4 @@
+import Banner from "../components/ui/banner"
 import Section from "../components/ui/section"
 
 
@@ -7,6 +8,8 @@ function Home() {
     <div>
       
       <Section/>
+      <Banner/>
+
     </div>
   )
 }
