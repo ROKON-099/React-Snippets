@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S25",
+    "category": "Phone",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "rating": 4.8,
+    "stock": 15,
+    "description": "A powerful flagship smartphone with a high-quality display, fast processor, and advanced camera system."
+  },
+  {
+    "id": 2,
+    "name": "iPhone 16 Pro",
+    "category": "Phone",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
+    "rating": 4.9,
+    "stock": 10,
+    "description": "A premium smartphone featuring a powerful processor, professional camera system, and titanium design."
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M3",
+    "category": "Laptop",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "rating": 4.9,
+    "stock": 8,
+    "description": "A lightweight laptop with an M3 chip, long battery life, sharp display, and excellent performance."
+  },
+  {
+    "id": 4,
+    "name": "Dell Inspiron 15",
+    "category": "Laptop",
+    "price": 749,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+    "rating": 4.6,
+    "stock": 12,
+    "description": "A reliable everyday laptop suitable for programming, office work, browsing, and entertainment."
+  },
+  {
+    "id": 5,
+    "name": "Dell 24 Inch Monitor",
+    "category": "Monitor",
+    "price": 179,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    "rating": 4.5,
+    "stock": 20,
+    "description": "A 24-inch Full HD monitor with a clear display, slim design, and comfortable viewing experience."
+  },
+  {
+    "id": 6,
+    "name": "Logitech Wireless Mouse",
+    "category": "Mouse",
+    "price": 39,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+    "rating": 4.4,
+    "stock": 35,
+    "description": "A comfortable wireless mouse designed for everyday work, browsing, and productivity."
+  },
+  {
+    "id": 7,
+    "name": "Mechanical RGB Keyboard",
+    "category": "Keyboard",
+    "price": 79,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+    "rating": 4.7,
+    "stock": 25,
+    "description": "A mechanical keyboard with RGB lighting, responsive switches, and a durable design for gaming and work."
+  },
+  {
+    "id": 8,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphone",
+    "price": 349,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "rating": 4.8,
+    "stock": 14,
+    "description": "Premium wireless headphones with active noise cancellation, clear sound, and comfortable ear cushions."
+  },
+  {
+    "id": 9,
+    "name": "Apple AirPods Pro",
+    "category": "Earbuds",
+    "price": 249,
+    "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+    "rating": 4.7,
+    "stock": 18,
+    "description": "Compact wireless earbuds with noise cancellation, high-quality audio, and a comfortable fit."
+  },
+  {
+    "id": 10,
+    "name": "Samsung 1TB SSD",
+    "category": "Storage",
+    "price": 99,
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b",
+    "rating": 4.6,
+    "stock": 30,
+    "description": "A fast 1TB SSD that provides quick boot times, faster file transfers, and reliable storage."
+  },
+  {
+    "id": 11,
+    "name": "Corsair 16GB RAM",
+    "category": "RAM",
+    "price": 59,
+    "image": "https://images.unsplash.com/photo-1562976540-1502c2145186",
+    "rating": 4.5,
+    "stock": 22,
+    "description": "High-performance 16GB RAM designed to improve multitasking and overall computer performance."
+  },
+  {
+    "id": 12,
+    "name": "Anker Power Bank 20000mAh",
+    "category": "Power Bank",
+    "price": 49,
+    "image": "https://images.unsplash.com/photo-1609592424629-8a9e6a5e2d4c",
+    "rating": 4.6,
+    "stock": 40,
+    "description": "A high-capacity 20000mAh power bank that provides reliable portable charging for smartphones and devices."
+  },
+  {
+    "id": 13,
+    "name": "Logitech HD Webcam",
+    "category": "Webcam",
+    "price": 69,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    "rating": 4.4,
+    "stock": 16,
+    "description": "An HD webcam suitable for video calls, online classes, meetings, and content creation."
+  },
+  {
+    "id": 14,
+    "name": "USB-C Fast Charger",
+    "category": "Charger",
+    "price": 29,
+    "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761",
+    "rating": 4.5,
+    "stock": 50,
+    "description": "A compact USB-C fast charger designed for quickly charging compatible smartphones, tablets, and accessories."
+  },
+  {
+    "id": 15,
+    "name": "Gaming Graphics Card",
+    "category": "GPU",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+    "rating": 4.8,
+    "stock": 7,
+    "description": "A powerful graphics card designed for gaming, video editing, 3D rendering, and demanding applications."
+  },
+  {
+    "id": 16,
+    "name": "WiFi 6 Router",
+    "category": "Networking",
+    "price": 129,
+    "image": "https://images.unsplash.com/photo-1647427060118-4911c9821b82",
+    "rating": 4.6,
+    "stock": 19,
+    "description": "A modern WiFi 6 router offering faster wireless speeds, improved coverage, and better device connectivity."
+  }
+]
