@@ -1,11 +1,12 @@
+import Item from "../components/ui/Item"
 
 
-function Product() {
+function OurProduct() {
   return (
     <div>
-      
+      <Item/>
     </div>
   )
 }
 
-export default Product
+export default OurProduct

@@ -3,7 +3,6 @@ function Home() {
   return (
     <div>
       <Banner/>
-      
     </div>
   )
 }
