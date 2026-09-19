@@ -1,55 +1,87 @@
 
+
+import { useState } from "react";
+
 function Banner() {
-  const users = [
+  const products = [
     {
       id: 1,
-      name: "Rahim",
-      age: 22,
-      city: "Dhaka"
+      name: "Headphone",
+      price: 2500
     },
     {
       id: 2,
-      name: "Karim",
-      age: 24,
-      city: "Rajshahi"
+      name: "Keyboard",
+      price: 1800
     },
     {
       id: 3,
-      name: "Hasan",
-      age: 21,
-      city: "Chittagong"
+      name: "Mouse",
+      price: 1200
     }
   ];
+
+  const [cart, setCart] = useState([]);
+
+  // Add product to cart
+  const addToCart = (product) => {
+    setCart([
+      ...cart,
+      {
+        ...product,
+        quantity: 1
+      }
+    ]);
+  };
 
   return (
     <div className="p-10">
 
       <h1 className="text-3xl font-bold mb-6">
-        User Profiles
+        Products
       </h1>
 
-      <div className="grid grid-cols-3 gap-5">
+      {/* Products */}
+      <div className="flex gap-5">
 
-        {users.map(({ id, name, age, city }) => (
-
+        {products.map((product) => (
           <div
-            key={id}
-            className="border rounded-lg p-5 shadow"
+            key={product.id}
+            className="border p-5 rounded-lg"
           >
-
             <h2 className="text-xl font-bold">
-              {name}
+              {product.name}
             </h2>
 
-            <p>Age: {age}</p>
+            <p>৳{product.price}</p>
 
-            <p>City: {city}</p>
-
+            <button
+              onClick={() => addToCart(product)}
+              className="bg-black text-white px-4 py-2 mt-3 rounded"
+            >
+              Add to Cart
+            </button>
           </div>
-
         ))}
 
       </div>
+
+
+      {/* Cart */}
+      <h1 className="text-2xl font-bold mt-10 mb-4">
+        Cart
+      </h1>
+
+      {cart.map((item) => (
+        <div
+          key={item.id}
+          className="border p-4 mb-2"
+        >
+          <h2>{item.name}</h2>
+          <p>Price: ৳{item.price}</p>
+          <p>Quantity: {item.quantity}</p>
+        </div>
+      ))}
 
     </div>
   );
